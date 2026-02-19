@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact - SimpleSite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a class="logo" href="index.html">SimpleSite</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="about">
+            <h1>Contact Us</h1>
+            <p>Have a question or feedback? Use the form below or email us directly.</p>
+
+            <form class="contact-form" onsubmit="alert('Demo form — submissions are disabled.'); return false;">
+                <label>
+                    <span>Name</span>
+                    <input type="text" name="name" placeholder="Your name" required>
+                </label>
+
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="you@example.com" required>
+                </label>
+
+                <label>
+                    <span>Message</span>
+                    <textarea name="message" placeholder="Write your message" required></textarea>
+                </label>
+
+                <div class="form-actions">
+                    <button type="submit" class="cta">Send Message</button>
+                </div>
+            </form>
+
+            <p class="muted">Or email us directly at <a href="mailto:hello@example.com">hello@example.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SimpleSite</p>
+    </footer>
+</body>
+
+</html>

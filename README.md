@@ -7,6 +7,7 @@ Files added:
 - `index.html` — Home page
 - `about.html` — About page
 - `styles.css` — Shared stylesheet
+- `contact.html` — Contact page with demo form
 
 Preview locally (from the `demo` folder):
 
